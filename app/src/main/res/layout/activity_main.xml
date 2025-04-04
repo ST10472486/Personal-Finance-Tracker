@@ -18,6 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_weight="1"
+            android:background="#14ADC1"
             android:gravity="center_horizontal|center_vertical"
             android:text="Finance Tracker"
             android:textSize="34sp" />
@@ -132,6 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#C57A10"
             android:text="Calculate Balance" />
     </LinearLayout>
 
@@ -144,18 +146,21 @@
             android:id="@+id/tvIncome"
             android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#14ADC1" />
 
         <TextView
             android:id="@+id/tvExpenses"
             android:layout_width="77dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#14ADC1" />
 
         <TextView
             android:id="@+id/BalanceDisplay"
             android:layout_width="68dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="#14ADC1" />
     </LinearLayout>
 </LinearLayout>
